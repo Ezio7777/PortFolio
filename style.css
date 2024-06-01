@@ -148,10 +148,14 @@ a:hover {
 
 /* SECTIONS */
 
+.margin_section {
+  margin-top: 3rem !important;
+}
+
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  height: auto;
+  margin: 0rem 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -377,6 +381,12 @@ article .icon {
 
 .project-about {
   margin-bottom: 30px;
+  text-align: initial !important;
+}
+.project_sub_heading {
+  font-weight: bolder;
+  color: black;
+  text-align: center;
 }
 
 .project-btn {

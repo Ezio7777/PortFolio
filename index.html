@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- NAVBAR -->
     <nav id="desktop-nav">
       <div class="logo">Sunit Pal</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -36,6 +37,9 @@
         </div>
       </div>
     </nav>
+
+    <!-- Profile  -->
+
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/ProfilePic.png" alt="John Doe profile picture" />
@@ -71,13 +75,15 @@
         </div>
       </div>
     </section>
-    <section id="about">
+
+    <!-- ABOUT -->
+    <section id="about ">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.jpeg"
+            src="./assets/about-pic.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -123,11 +129,14 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+
+    <!-- Skills -->
+    <section id="skills" class="margin_section">
       <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title">Skills</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Frontend -->
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
             <div class="article-container">
@@ -193,12 +202,13 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>Redux</h3>
+                  <p>Fundamental</p>
                 </div>
               </article>
             </div>
           </div>
+          <!-- Backend  -->
           <div class="details-container">
             <h2 class="experience-sub-title">Backend Development</h2>
             <div class="article-container">
@@ -242,7 +252,131 @@
                   class="icon"
                 />
                 <div>
+                  <h3>MySQL</h3>
+                  <p>Fundamental</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
                   <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <!-- Programming Languages -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>c++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>c</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Fundamental</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Fundamental</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <!-- Tools & Technologies -->
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools & Technologies</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VScode</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Postman</h3>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -257,7 +391,10 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
+
+    <!-- Projects -->
+
+    <section id="projects" class="margin_section">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -270,14 +407,30 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">My Quiz</h2>
-            <p class="project-about">
-              MyQuiz, built on the MERN stack, enables users to create
-              personalized quizzes with custom questions and answers. Each quiz
-              generates a unique 6-digit code for participants to join. Hosts
-              can monitor quiz results in real-time via the dashboard, enhancing
-              quiz management and engagement.
-            </p>
+            <h2 class="experience-sub-title project-title">MyQuiz</h2>
+            <div class="project-about">
+              <p class="project_sub_heading">Engaging Quiz Platform</p>
+              <br />
+              <p>
+                • Developed an interactive quiz platform using MERN stack
+                technologies.
+              </p>
+              <br />
+              <p>
+                • Customizable quizzes with real-time monitoring and analytics
+                via a dashboard.
+              </p>
+              <br />
+              <p>
+                • Generated unique access codes for participants to join and
+                interact.
+              </p>
+              <br />
+              <p>
+                • Responsive design ensuring seamless user experience across
+                devices.
+              </p>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -287,7 +440,7 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://my-quiz-plum.vercel.app/'"
               >
                 Live Demo
               </button>
@@ -302,14 +455,26 @@
               />
             </div>
             <h2 class="experience-sub-title project-title">E-Mandi</h2>
-            <p class="project-about">
-              E-Mandi, a MERN stack project, empowers farmers to sell their
-              goods directly to buyers, eliminating intermediaries. Buyers can
-              purchase produce directly from farmers, ensuring fair prices and
-              benefiting both parties. This decentralized marketplace fosters
-              transparency and equity, providing a platform where farmers
-              receive fair value for their products.
-            </p>
+            <div class="project-about">
+              <p class="project_sub_heading">
+                Empowering Agricultural Trade Through Digital Connectivity
+              </p>
+              <br />
+              <p>
+                • Implemented using the MERN stack with RESTful APIs and
+                WebSocket integration.
+              </p>
+              <br />
+              <p>
+                • Enhanced transparency, promoted digitalization, and fostered
+                economic growth in rural areas.
+              </p>
+              <br />
+              <p>
+                • Facilitated direct trade between farmers and buyers, enabling
+                live product listings and secure transactions.
+              </p>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -319,13 +484,13 @@
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://e-mandi-eight.vercel.app/'"
               >
                 Live Demo
               </button>
             </div>
           </div>
-          <div class="details-container color-container">
+          <!-- <div class="details-container color-container">
             <div class="article-container">
               <img
                 src="./assets/comingsoon.avif"
@@ -337,18 +502,18 @@
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href=`#projects`"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href=`#projects`"
               >
                 Live Demo
               </button>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <img
@@ -358,7 +523,9 @@
         onclick="location.href='./#contact'"
       />
     </section>
-    <section id="contact">
+
+    <!-- Contact  -->
+    <section id="contact" class="margin_section">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -389,6 +556,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer  -->
     <footer>
       <nav>
         <div class="nav-links-container">
